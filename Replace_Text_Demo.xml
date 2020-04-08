@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<template encoding-version="1.2">
+    <description>Template for a solution on Cloudera Community.</description>
+    <groupId>7c84501d-d10c-407c-b9f3-1d80e38fe36a</groupId>
+    <name>Replace Text Demo</name>
+    <snippet>
+        <processGroups>
+            <id>95bbd662-2206-3f14-0000-000000000000</id>
+            <parentGroupId>46f95fe5-3024-31d8-0000-000000000000</parentGroupId>
+            <position>
+                <x>0.0</x>
+                <y>0.0</y>
+            </position>
+            <comments></comments>
+            <contents>
+                <connections>
+                    <id>2369ade4-39de-3dd9-0000-000000000000</id>
+                    <parentGroupId>95bbd662-2206-3f14-0000-000000000000</parentGroupId>
+                    <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+                    <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+                    <destination>
+                        <groupId>95bbd662-2206-3f14-0000-000000000000</groupId>
+                        <id>f85c054a-cb69-3cfa-0000-000000000000</id>
+                        <type>PROCESSOR</type>
+                    </destination>
+                    <flowFileExpiration>0 sec</flowFileExpiration>
+                    <labelIndex>1</labelIndex>
+                    <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
+                    <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
+                    <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
+                    <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
+                    <name></name>
+                    <selectedRelationships>success</selectedRelationships>
+                    <source>
+                        <groupId>95bbd662-2206-3f14-0000-000000000000</groupId>
+                        <id>43fcb555-f0d3-3022-0000-000000000000</id>
+                        <type>PROCESSOR</type>
+                    </source>
+                    <zIndex>0</zIndex>
+                </connections>
+                <connections>
+                    <id>77639140-e10f-35ec-0000-000000000000</id>
+                    <parentGroupId>95bbd662-2206-3f14-0000-000000000000</parentGroupId>
+                    <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+                    <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+                    <bends>
+                        <x>460.0</x>
+                        <y>494.0</y>
+                    </bends>
+                    <destination>
+                        <groupId>95bbd662-2206-3f14-0000-000000000000</groupId>
+                        <id>d5e32791-bcbd-3778-0000-000000000000</id>
+                        <type>OUTPUT_PORT</type>
+                    </destination>
+                    <flowFileExpiration>0 sec</flowFileExpiration>
+                    <labelIndex>0</labelIndex>
+                    <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
+                    <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
+                    <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
+                    <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
+                    <name></name>
+                    <selectedRelationships>failure</selectedRelationships>
+                    <source>
+                        <groupId>95bbd662-2206-3f14-0000-000000000000</groupId>
+                        <id>f85c054a-cb69-3cfa-0000-000000000000</id>
+                        <type>PROCESSOR</type>
+                    </source>
+                    <zIndex>0</zIndex>
+                </connections>
+                <connections>
+                    <id>d06857b1-47a2-32dd-0000-000000000000</id>
+                    <parentGroupId>95bbd662-2206-3f14-0000-000000000000</parentGroupId>
+                    <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+                    <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+                    <bends>
+                        <x>233.31068234991199</x>
+                        <y>495.196171551112</y>
+                    </bends>
+                    <destination>
+                        <groupId>95bbd662-2206-3f14-0000-000000000000</groupId>
+                        <id>d5e32791-bcbd-3778-0000-000000000000</id>
+                        <type>OUTPUT_PORT</type>
+                    </destination>
+                    <flowFileExpiration>0 sec</flowFileExpiration>
+                    <labelIndex>1</labelIndex>
+                    <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
+                    <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
+                    <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
+                    <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
+                    <name></name>
+                    <selectedRelationships>success</selectedRelationships>
+                    <source>
+                        <groupId>95bbd662-2206-3f14-0000-000000000000</groupId>
+                        <id>f85c054a-cb69-3cfa-0000-000000000000</id>
+                        <type>PROCESSOR</type>
+                    </source>
+                    <zIndex>0</zIndex>
+                </connections>
+                <outputPorts>
+                    <id>d5e32791-bcbd-3778-0000-000000000000</id>
+                    <parentGroupId>95bbd662-2206-3f14-0000-000000000000</parentGroupId>
+                    <position>
+                        <x>223.00001340459949</x>
+                        <y>532.0000045589245</y>
+                    </position>
+                    <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                    <name>output</name>
+                    <state>STOPPED</state>
+                    <type>OUTPUT_PORT</type>
+                    <validationErrors>'Port 'output'' is invalid because Output connection for port 'output' is not defined.</validationErrors>
+                </outputPorts>
+                <processors>
+                    <id>43fcb555-f0d3-3022-0000-000000000000</id>
+                    <parentGroupId>95bbd662-2206-3f14-0000-000000000000</parentGroupId>
+                    <position>
+                        <x>156.00001340459949</x>
+                        <y>105.0000045589245</y>
+                    </position>
+                    <bundle>
+                        <artifact>nifi-standard-nar</artifact>
+                        <group>org.apache.nifi</group>
+                        <version>1.9.0.3.4.1.1-4</version>
+                    </bundle>
+                    <config>
+                        <bulletinLevel>WARN</bulletinLevel>
+                        <comments>Year,Day,Hour,Minute,ID_for_SW_Plasma_spacecraft,Percent_of_interpolation,Timeshift,RMS_Timeshift,RMS_Min_var,Time_btwn_observation_sec,Field_magnutude_average_nT,BY_nT(GSM),BZ_nT_(GSM),RMS_SD_B_scalar_nT,RMS_SD_field_vector_nT,Speed_km/s,Alfven_mach_number,Magnetosonic_Mach_number,BSN_location_Xgse_Re,2019 1 0 0 51 100 2788 164 0.12 999999 5.11 2.00 2.73 0.08 1.03 451.0 9.8 6.5 13.15
+2019 1 0 1 51 100 2810 159 0.12 37 5.10 2.33 2.58 0.11 1.04 451.3 9.8 6.5 13.10
+2019 1 0 2 51 80 2852 109 0.09 18 4.86 2.37 2.56 0.12 0.56 454.7 10.3 6.7 13.07
+2019 1 0 3 51 67 2951 66 0.06 -39 4.78 2.21 2.55 0.03 0.33 452.3 11.0 6.8 13.00
+2019 1 0 4 51 100 3025 7 0.00 -13 4.80 2.17 2.37 0.03 0.14 451.4 11.2 6.8 13.00
+2019 1 0 5 99 80 2973 111 0.09 111 4.94 2.68 2.39 0.13 0.55 99999.9 999.9 99.9 13.19
+2019 1 0 6 51 67 3074 20 0.02 -40 4.88 2.54 2.01 0.02 0.28 451.0 9.8 6.5 13.27
+2019 1 0 7 51 50 3114 9 0.00 19 4.82 2.37 2.93 0.02 0.14 451.0 9.9 6.5 13.29
+2019 1 0 8 99 999 999999 999999 99.99 999999 9999.99 9999.99 9999.99 9999.99 9999.99 99999.9 999.9 99.9 9999.99
+2019 1 0 9 99 100 3036 0 0.00 999999 5.16 3.34 2.44 0.00 0.00 99999.9 999.9 99.9 13.24
+2019 1 0 10 99 100 3036 0 0.00 60 5.16 3.34 2.43 0.00 0.00 99999.9 999.9 99.9 13.24</comments>
+                        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                        <descriptors>
+                            <entry>
+<key>File Size</key>
+<value>
+    <name>File Size</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Batch Size</key>
+<value>
+    <name>Batch Size</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Data Format</key>
+<value>
+    <name>Data Format</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Unique FlowFiles</key>
+<value>
+    <name>Unique FlowFiles</name>
+</value>
+                            </entry>
+                            <entry>
+<key>generate-ff-custom-text</key>
+<value>
+    <name>generate-ff-custom-text</name>
+</value>
+                            </entry>
+                            <entry>
+<key>character-set</key>
+<value>
+    <name>character-set</name>
+</value>
+                            </entry>
+                        </descriptors>
+                        <executionNode>ALL</executionNode>
+                        <lossTolerant>false</lossTolerant>
+                        <penaltyDuration>30 sec</penaltyDuration>
+                        <properties>
+                            <entry>
+<key>File Size</key>
+<value>0B</value>
+                            </entry>
+                            <entry>
+<key>Batch Size</key>
+<value>1</value>
+                            </entry>
+                            <entry>
+<key>Data Format</key>
+<value>Text</value>
+                            </entry>
+                            <entry>
+<key>Unique FlowFiles</key>
+<value>false</value>
+                            </entry>
+                            <entry>
+<key>generate-ff-custom-text</key>
+<value>Year,Day,Hour,Minute,ID_for_SW_Plasma_spacecraft,Percent_of_interpolation,Timeshift,RMS_Timeshift,RMS_Min_var,Time_btwn_observation_sec,Field_magnutude_average_nT,BY_nT(GSM),BZ_nT_(GSM),RMS_SD_B_scalar_nT,RMS_SD_field_vector_nT,Speed_km/s,Alfven_mach_number,Magnetosonic_Mach_number,BSN_location_Xgse_Re,2019 1 0 0 51 100 2788 164 0.12 999999 5.11 2.00 2.73 0.08 1.03 451.0 9.8 6.5 13.15
+2019 1 0 1 51 100 2810 159 0.12 37 5.10 2.33 2.58 0.11 1.04 451.3 9.8 6.5 13.10
+2019 1 0 2 51 80 2852 109 0.09 18 4.86 2.37 2.56 0.12 0.56 454.7 10.3 6.7 13.07
+2019 1 0 3 51 67 2951 66 0.06 -39 4.78 2.21 2.55 0.03 0.33 452.3 11.0 6.8 13.00
+2019 1 0 4 51 100 3025 7 0.00 -13 4.80 2.17 2.37 0.03 0.14 451.4 11.2 6.8 13.00
+2019 1 0 5 99 80 2973 111 0.09 111 4.94 2.68 2.39 0.13 0.55 99999.9 999.9 99.9 13.19
+2019 1 0 6 51 67 3074 20 0.02 -40 4.88 2.54 2.01 0.02 0.28 451.0 9.8 6.5 13.27
+2019 1 0 7 51 50 3114 9 0.00 19 4.82 2.37 2.93 0.02 0.14 451.0 9.9 6.5 13.29
+2019 1 0 8 99 999 999999 999999 99.99 999999 9999.99 9999.99 9999.99 9999.99 9999.99 99999.9 999.9 99.9 9999.99
+2019 1 0 9 99 100 3036 0 0.00 999999 5.16 3.34 2.44 0.00 0.00 99999.9 999.9 99.9 13.24
+2019 1 0 10 99 100 3036 0 0.00 60 5.16 3.34 2.43 0.00 0.00 99999.9 999.9 99.9 13.24</value>
+                            </entry>
+                            <entry>
+<key>character-set</key>
+<value>UTF-8</value>
+                            </entry>
+                        </properties>
+                        <runDurationMillis>0</runDurationMillis>
+                        <schedulingPeriod>15 sec</schedulingPeriod>
+                        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                        <yieldDuration>1 sec</yieldDuration>
+                    </config>
+                    <executionNodeRestricted>false</executionNodeRestricted>
+                    <name>GenerateFlowFile</name>
+                    <relationships>
+                        <autoTerminate>false</autoTerminate>
+                        <name>success</name>
+                    </relationships>
+                    <state>STOPPED</state>
+                    <style/>
+                    <type>org.apache.nifi.processors.standard.GenerateFlowFile</type>
+                </processors>
+                <processors>
+                    <id>f85c054a-cb69-3cfa-0000-000000000000</id>
+                    <parentGroupId>95bbd662-2206-3f14-0000-000000000000</parentGroupId>
+                    <position>
+                        <x>158.62135129522449</x>
+                        <y>316.3923385432995</y>
+                    </position>
+                    <bundle>
+                        <artifact>nifi-standard-nar</artifact>
+                        <group>org.apache.nifi</group>
+                        <version>1.9.0.3.4.1.1-4</version>
+                    </bundle>
+                    <config>
+                        <bulletinLevel>WARN</bulletinLevel>
+                        <comments></comments>
+                        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                        <descriptors>
+                            <entry>
+<key>Regular Expression</key>
+<value>
+    <name>Regular Expression</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Replacement Value</key>
+<value>
+    <name>Replacement Value</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Character Set</key>
+<value>
+    <name>Character Set</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Maximum Buffer Size</key>
+<value>
+    <name>Maximum Buffer Size</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Replacement Strategy</key>
+<value>
+    <name>Replacement Strategy</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Evaluation Mode</key>
+<value>
+    <name>Evaluation Mode</name>
+</value>
+                            </entry>
+                        </descriptors>
+                        <executionNode>ALL</executionNode>
+                        <lossTolerant>false</lossTolerant>
+                        <penaltyDuration>30 sec</penaltyDuration>
+                        <properties>
+                            <entry>
+<key>Regular Expression</key>
+<value>(?s)(^.*$)</value>
+                            </entry>
+                            <entry>
+<key>Replacement Value</key>
+<value>${'$1':replace(' ',',')}</value>
+                            </entry>
+                            <entry>
+<key>Character Set</key>
+<value>UTF-8</value>
+                            </entry>
+                            <entry>
+<key>Maximum Buffer Size</key>
+<value>10 MB</value>
+                            </entry>
+                            <entry>
+<key>Replacement Strategy</key>
+<value>Regex Replace</value>
+                            </entry>
+                            <entry>
+<key>Evaluation Mode</key>
+<value>Entire text</value>
+                            </entry>
+                        </properties>
+                        <runDurationMillis>0</runDurationMillis>
+                        <schedulingPeriod>0 sec</schedulingPeriod>
+                        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                        <yieldDuration>1 sec</yieldDuration>
+                    </config>
+                    <executionNodeRestricted>false</executionNodeRestricted>
+                    <name>ReplaceText</name>
+                    <relationships>
+                        <autoTerminate>false</autoTerminate>
+                        <name>failure</name>
+                    </relationships>
+                    <relationships>
+                        <autoTerminate>false</autoTerminate>
+                        <name>success</name>
+                    </relationships>
+                    <state>RUNNING</state>
+                    <style/>
+                    <type>org.apache.nifi.processors.standard.ReplaceText</type>
+                </processors>
+            </contents>
+            <name>Replace Text Demo</name>
+            <variables/>
+        </processGroups>
+    </snippet>
+    <timestamp>04/08/2020 20:22:43 UTC</timestamp>
+</template>
