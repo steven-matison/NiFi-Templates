@@ -14,3 +14,5 @@ Schema Registry Demo - Learn how to use the Schema Registry's API to Create & Up
 Schema Generator API Demo - Learn how to use Nifi to automate the creation of Schema Registry Entities, Avro Schemas, Hive Schemas, and Hive tables for large data sources.
 
 Working With Timestamps - Examples of NiFi Expression Language for timestamps.
+
+MiNiFi Tail Logs to NiFi to HDFS Demo - Learn how to use MiNiFi to tail log files, deliver to NiFi, and save to HDFS.
