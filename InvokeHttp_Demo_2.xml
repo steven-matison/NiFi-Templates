@@ -805,6 +805,18 @@ before auto termination</label>
     <name>canonical-value-lookup-cache-size</name>
 </value>
                             </entry>
+                            <entry>
+<key>Code</key>
+<value>
+    <name>Code</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Continent</key>
+<value>
+    <name>Continent</name>
+</value>
+                            </entry>
                         </descriptors>
                         <executionNode>ALL</executionNode>
                         <lossTolerant>false</lossTolerant>
@@ -823,6 +835,14 @@ before auto termination</label>
                             <entry>
 <key>canonical-value-lookup-cache-size</key>
 <value>100</value>
+                            </entry>
+                            <entry>
+<key>Code</key>
+<value>A-5678</value>
+                            </entry>
+                            <entry>
+<key>Continent</key>
+<value>test</value>
                             </entry>
                         </properties>
                         <runDurationMillis>0</runDurationMillis>
@@ -1140,5 +1160,5 @@ before auto termination</label>
             <variables/>
         </processGroups>
     </snippet>
-    <timestamp>05/20/2020 14:26:16 UTC</timestamp>
+    <timestamp>05/20/2020 18:41:05 UTC</timestamp>
 </template>
