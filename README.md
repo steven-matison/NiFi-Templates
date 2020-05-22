@@ -7,6 +7,10 @@ CSV to Table Demo - Parse CSV into an HTML Table Output
 
 Excel to SQL Demo - Import Excel Colummn Data to SQL
 
+EvaluateJsonPath Demo - Demonstration of accessing json array values inside of json objects
+
+EvaluateJsonPath Demo 2 - In this demo we split a json, then evaluate an id within an array.
+
 Get File Demo - Demo examples for NiFI Processors: GetFile, GetFtp, GetHttp (http and https)
 
 InvokeHttp Demo - Demo post using credentials and mime.type.
