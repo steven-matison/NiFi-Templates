@@ -226,19 +226,15 @@ output port to an  Error Notification Handler.</label>
                     <id>a5b6abdc-4a7a-35a8-0000-000000000000</id>
                     <parentGroupId>ad84107f-34c3-37a2-0000-000000000000</parentGroupId>
                     <position>
-                        <x>-336.9429921516935</x>
-                        <y>131.23656642651486</y>
+                        <x>-1018.542931498007</x>
+                        <y>-49.96341526293827</y>
                     </position>
-                    <height>224.85916137695312</height>
-                    <label>Check Controller Services Tab
-
-DistributedMapCachServer 
-  - Set Port
-DistributedMapCacheClient
-  - Set Server Name (localhost)
-  - Set Port (same as above)
-
-Enable Both Controller Services</label>
+                    <height>164.85916137695312</height>
+                    <label>Before starting the flow check Controller Services Tab for this Process Group.  
+You will need to click + to add the DistributedMapCacheServer.  
+Next edit the DistributedMapCacheClient to set Server Name to localhost.  
+The Client port should be the same as Server above.
+Enable Both Controller Services.</label>
                     <style>
                         <entry>
                             <key>background-color</key>
@@ -249,7 +245,7 @@ Enable Both Controller Services</label>
                             <value>24px</value>
                         </entry>
                     </style>
-                    <width>392.9417724609375</width>
+                    <width>858.9417724609375</width>
                 </labels>
                 <outputPorts>
                     <id>b9919470-350c-3bc7-0000-000000000000</id>
@@ -346,7 +342,7 @@ Enable Both Controller Services</label>
                         <autoTerminate>false</autoTerminate>
                         <name>success</name>
                     </relationships>
-                    <state>RUNNING</state>
+                    <state>STOPPED</state>
                     <style/>
                     <type>org.apache.nifi.processors.attributes.UpdateAttribute</type>
                 </processors>
@@ -443,7 +439,7 @@ Enable Both Controller Services</label>
                         <autoTerminate>false</autoTerminate>
                         <name>success</name>
                     </relationships>
-                    <state>RUNNING</state>
+                    <state>STOPPED</state>
                     <style/>
                     <type>org.apache.nifi.processors.standard.GenerateFlowFile</type>
                 </processors>
@@ -539,7 +535,7 @@ Enable Both Controller Services</label>
                         <autoTerminate>false</autoTerminate>
                         <name>non-duplicate</name>
                     </relationships>
-                    <state>RUNNING</state>
+                    <state>STOPPED</state>
                     <style/>
                     <type>org.apache.nifi.processors.standard.DetectDuplicate</type>
                 </processors>
@@ -548,5 +544,5 @@ Enable Both Controller Services</label>
             <variables/>
         </processGroups>
     </snippet>
-    <timestamp>05/28/2020 19:50:03 UTC</timestamp>
+    <timestamp>05/28/2020 19:56:56 UTC</timestamp>
 </template>
