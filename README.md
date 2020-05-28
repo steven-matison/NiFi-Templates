@@ -5,6 +5,8 @@ CSV to SQL Demo - Parse CSV, extract values, create & execute insert query.
 
 CSV to Table Demo - Parse CSV into an HTML Table Output
 
+DetectDuplicate DistributedMapCache Demo - An example of how to use DetectDuplicate with the DistributedMapCacheServer and DistributedMapCacheClient.
+
 Excel to SQL Demo - Import Excel Colummn Data to SQL
 
 EvaluateJsonPath Demo - Demonstration of accessing json array values inside of json objects
