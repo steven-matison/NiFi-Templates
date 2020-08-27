@@ -19,6 +19,8 @@ InvokeHttp Demo - Demo post using credentials and mime.type.
 
 InvokeHttp Demo 2 - Using Json content, grab values, add new values, send specific values back to flow file, and finally send to InvokeHttp
 
+NiFi API with HandleHttpRequest Demo - Learn to use NiFi to create an API using HandleHttpRequest and HandleHttpResponse.
+
 Schema Registry Demo - Learn how to use the Schema Registry's API to Create & Update Schemas in NiFi. [Using the Schema Registry](https://community.cloudera.com/t5/Community-Articles/Using-the-Schema-Registry-API/ta-p/286194)
 
 Schema Generator API Demo - Learn how to use Nifi to automate the creation of Schema Registry Entities, Avro Schemas, Hive Schemas, and Hive tables for large data sources.
